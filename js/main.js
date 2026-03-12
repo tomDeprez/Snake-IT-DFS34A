@@ -4,8 +4,8 @@ let lastDirection = 'right';
 
 const containerSize = [gameContainer.style.width ? parseInt(gameContainer.style.width) : 0, gameContainer.style.height ? parseInt(gameContainer.style.height) : 0];
 const snakeSize = 50;
-setInterval(loopGame, 300);
-startGame();
+setInterval(loopGame, 300);dza
+startGame();dzada
 
 function startGame() {
     generateApple();
