@@ -8,7 +8,7 @@ setInterval(loopGame, 300);
 startGame();
 
 function startGame() {
-    generateApple();vugdjzda
+    generateApple();
 }
 
 function resetSnake() {
