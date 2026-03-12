@@ -2,6 +2,8 @@ let snake = document.getElementById("snake");
 let gameContainer = document.getElementById("game-container");
 let lastDirection = 'right';
 
+let addIa = "";
+
 const containerSize = [gameContainer.style.width ? parseInt(gameContainer.style.width) : 0, gameContainer.style.height ? parseInt(gameContainer.style.height) : 0];
 const snakeSize = 50;
 setInterval(loopGame, 300);
